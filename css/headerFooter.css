@@ -13,7 +13,7 @@ body{
 
 /*******************HEADER***************************/
 header{
-    border-bottom: 0.1em solid #000000;
+    border-bottom: 0.1em solid #D0E5C6;
 }
 
 header a{
@@ -44,7 +44,7 @@ header #ulXs li{
 /*******************FOOTER***************************/
 footer{
     margin-top: 2em;
-	border-top: 0.1em solid #000000;
+	border-top: 0.1em solid #D0E5C6;
 }
 
 footer li, footer .net a{
