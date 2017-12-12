@@ -2,19 +2,25 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Contact</title>
+  
   <link href="https://fonts.googleapis.com/css?family=Lora|Playfair+Display" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/contact.css">
   <link rel="stylesheet" href="../css/headerFooter.css">
-  <title></title>
+
+  <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="../bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 <body>
   <div class="container-fluid">
       <header class="row">
         <nav class="col-lg-12 col-md-12 col-sm-12 col-xs-12 navbar">
         <div class="navbar-header">
-          <img class="pull-left img-responsive hidden-lg hidden-md" src="../img/130x130-navBrandAda.jpg" alt="">
-          <img class="pull-left img-responsive hidden-sm hidden-xs" src="../img/170x150-navBrandAda.jpg" alt="">
+          <!--img class="pull-left img-responsive hidden-lg hidden-md" src="../img/130x130-navBrandAda.jpg" alt="">
+          <img class="pull-left img-responsive hidden-sm hidden-xs" src="../img/170x150-navBrandAda.jpg" alt=""-->
               <button type="button" class="navbar-toggle btn btn-lg pull-right" data-toggle="collapse" data-target="#myFirstNavbar" >
               <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
           </button>        
@@ -23,12 +29,12 @@
             <ul class="nav navbar-nav pull-right hidden-xs ulLg">
                 <li class="active"><a href="../index.html">Home</a></li>
                 <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="../html/Nosotros.html">Nosotros<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="../html/aboutUs.html">Nosotros<span class="caret"></span></a>
               <ul class="dropdown-menu" id="ulXs">
-                <li class="well-sm"><a href="../html/Nosotros.html">Nuestra Historia</a></li>
-                <li class="well-sm"><a href="../html/Nosotros.html#Nuestras Instalaciones">Nuestras Instalaciones</a></li>
-                <li class="well-sm"><a href="../html/Nosotros.html#Nuestros Servicios">Nuestros Servicios</a></li>
-                <li class="well-sm"><a href="../html/Nosotros.html#Nuestros Docentes">Nuestros Docentes</a></li>
+                <li class="well-sm"><a href="../html/aboutUs.html">Nuestra Historia</a></li>
+                <li class="well-sm"><a href="../html/aboutUs.html#Nuestras Instalaciones">Nuestras Instalaciones</a></li>
+                <li class="well-sm"><a href="../html/aboutUs.html#Nuestros Servicios">Nuestros Servicios</a></li>
+                <li class="well-sm"><a href="../html/aboutUs.html#Nuestros Docentes">Nuestros Docentes</a></li>
               </ul>
             </li>
                 <!--li><a href="../html/talleres.html">Talleres</a></li>
@@ -38,12 +44,12 @@
             <ul class="nav navbar-nav hidden-lg hidden-md hidden-sm" id="ulXs"> 
                 <li class="active"><a href="#">Home</a></li>
                 <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="../html/Nosotros.html">Nosotros<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="../html/aboutUs.html">Nosotros<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="../html/Nosotros.html">Nuestra Historia</a></li>
-                <li><a href="../html/Nosotros.html#Nuestras Instalaciones">Nuestras Instalaciones</a></li>
-                <li><a href="../html/Nosotros.html#Nuestros Servicios">Nuestros Servicios</a></li>
-                <li><a href="../html/Nosotros.html#Nuestros Docentes">Nuestros Docentes</a></li>
+                <li><a href="../html/aboutUs.html">Nuestra Historia</a></li>
+                <li><a href="../html/aboutUs.html#Nuestras Instalaciones">Nuestras Instalaciones</a></li>
+                <li><a href="../html/aboutUs.html#Nuestros Servicios">Nuestros Servicios</a></li>
+                <li><a href="../html/aboutUs.html#Nuestros Docentes">Nuestros Docentes</a></li>
               </ul>
             </li>
                 <!--li><a href="../html/talleres.html">Talleres</a></li>
@@ -58,7 +64,7 @@
     <main class="row">
       <div class="col-lg-2">  </div>
       <div class="col-lg-8">
-            <h2 class="well-lg text-center">Consultanos tus dudas</h2>
+            <h1 class="well-lg text-center">Consultanos tus dudas</h1>
             <form class="form-horizontal" action="#">
 
             <!--div class="form-group">
@@ -137,15 +143,20 @@
                   <!--div class="col-lg-6"><input id="birthday" placeholder="Fecha de nacimiento" type="text" name="Sice" class="form-control"></div-->
                 </div> 
 
-                <div class="col-lg-12 center">
-                  <button id="btnEnviar" type="submit" name="Enviar" class="btn-medium">Enviar</button>
-                  <button type="cancel" name="Cancelar" class="btn-medium">Cancelar</button>
+                <div class="row">
+                    <div class="col-lg-3 col-lg-3"></div>
+                    <div class="col-lg-3 col-lg-3">
+                        <button id="btnEnviar" type="button" name="Enviar" class="btn-default btn-md btn-block">Enviar</button>  
+                    </div>
+                    <div class="col-lg-3 col-lg-3">
+                        <button type="button" name="Cancelar" class="btn-default btn-md btn-block">Cancelar</button>     
+                    </div>
+                    <div class="col-lg-3 col-lg-3"></div>
                 </div>
            </form>  
 
         <div class="row">
           <div class="col-lg-12 col-md-12">
-              <h1>Error de carga</h1>
               <ul id="error">
                 
               </ul>

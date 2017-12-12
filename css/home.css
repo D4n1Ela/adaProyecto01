@@ -5,18 +5,23 @@ main section{
 }
 
 main section>div img{
-	background: #D0E5C6;
+	background: #edf2f8;
 	padding: 0.2em;
 }
 
 main article>div>div>a{
-	background-color: #D0E5C6;
-	color: #000000;	
+	background-color: #d2dae7;
+	color: #5b627e;	
 }
 
 main .textSlider{
-    background: rgba(208, 229, 198, 0.5);
+    background: rgba(145, 157, 183, 0.7);
     padding-top: 0em;
-    color: #000000;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+main h4, main h1{
+	font-weight: bold;
 }
 /*******************FIN PRINCIPAL***************************/
